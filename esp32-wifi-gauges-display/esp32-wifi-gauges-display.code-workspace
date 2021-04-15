@@ -1,0 +1,56 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"terminal.integrated.shell.windows" : "cmd.exe",
+		"terminal.integrated.shellArgs.windows" : [
+			"/k",
+			"C:/esp/esp-idf/export.bat"
+		],
+		"files.associations": {
+			"task.h": "c",
+			"sdkconfig.h": "c",
+			"freertos.h": "c",
+			"cstdio": "c",
+			"fstream": "c",
+			"string.h": "c",
+			"tftspi.h": "c",
+			"font6x9.h": "c",
+			"event_groups.h": "c",
+			"font10x20.h": "c",
+			"font5x7.h": "c",
+			"random": "c",
+			"stdio.h": "c",
+			"hagl.h": "c",
+			"math.h": "c",
+			"future": "cpp",
+			"mutex": "cpp",
+			"cmath": "c",
+			"*.ipp": "cpp",
+			"gauge.h": "c",
+			"display.h": "c",
+			"esp_log.h": "c",
+			"nvs_flash.h": "c"
+		},
+		"actionButtons": {
+			"defaultColor": "White",
+			"reloadButton": "Reload",
+			"commands": [
+				{
+					"name": "Build",
+					"color": "White",
+					"command": "idf.py build"
+				},
+				{
+					"name": "Run",
+					"color": "White",
+					"command": "idf.py flash -p COM10 -b 921600 monitor"
+				}
+
+			]
+		}
+	}
+} 
